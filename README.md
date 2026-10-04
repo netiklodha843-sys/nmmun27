@@ -1,3 +1,7 @@
+
+# Deployed At: 
+https://netiklodha843-sys.github.io/nmmun27/
+
 # NMMUN '27 — Landing Page
 
 Single-page website for Narsee Monjee Model United Nations (18th Edition), NMIMS Shirpur.
