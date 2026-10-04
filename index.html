@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NMMUN '27 | Narsee Monjee Model United Nations, Shirpur</title>
+<meta name="description" content="NMMUN '27, the 18th edition of Narsee Monjee Model United Nations at NMIMS Shirpur. January 18–19.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="nav" id="nav">
+  <a class="brand" href="#home">NMMUN <span>'27</span></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#committees">Committees</a><a href="#experience">Experience</a><a href="#schedule">Schedule</a><a href="#faq">FAQ</a>
+    <a class="btn btn-sm" data-reg href="#">Register now</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <canvas id="globe" aria-hidden="true"></canvas>
+  <div class="hero-in">
+    <p class="meta">Model United Nations · <span data-cfg="season"></span></p>
+    <h1>NMMUN <em>'27</em></h1>
+    <p class="tag">Where diplomacy meets decision.</p>
+    <p class="where"><span data-cfg="dates"></span> · <span data-cfg="venue"></span></p>
+    <p class="theme" data-cfg="theme"></p>
+    <div class="cta"><a class="btn" data-reg href="#">Register now</a><a class="btn ghost" href="#about">Explore the conference</a></div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div><span>Diplomacy • Debate • Leadership • Resolution • </span><span>Diplomacy • Debate • Leadership • Resolution • </span><span>Diplomacy • Debate • Leadership • Resolution • </span></div></div>
+
+<section class="sec split" id="about">
+  <div><p class="meta">About</p><h2>More than a conference.</h2></div>
+  <div>
+    <p class="lead">Narsee Monjee Model United Nations puts students in the seats of ambassadors. For two days, delegates take a country's position on a real international crisis, argue it in formal session, build alliances in the corridors and turn disagreement into a written resolution.</p>
+    <p>The 18th edition at NMIMS Shirpur is built around rigorous background guides, well-trained chairs and committees that reward preparation. Delegates leave with sharper public speaking, negotiation and leadership skills, and a network that reaches beyond their own campus.</p>
+    <dl class="stats">
+      <div><dt>[X]+</dt><dd>Delegates</dd></div><div><dt>[X]</dt><dd>Committees</dd></div><div><dt>[X]+</dt><dd>Institutions</dd></div><div><dt>2</dt><dd>Days of diplomacy</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="sec dark" id="committees">
+  <p class="meta">The committees</p><h2>Choose your chamber.</h2>
+  <p class="sub">Hover or tap a chamber to open its brief. All agendas are placeholders until the Secretariat announces them.</p>
+  <div class="chambers" id="chambers"></div>
+</section>
+
+<section class="sec" id="experience">
+  <p class="meta">The delegate journey</p><h2>From registration to resolution.</h2>
+  <ol class="journey">
+    <li><b>Register</b><span>Secure your place.</span></li>
+    <li><b>Prepare</b><span>Receive your allocation and study material.</span></li>
+    <li><b>Arrive</b><span>Enter the conference and meet fellow delegates.</span></li>
+    <li><b>Debate</b><span>Speak, negotiate and defend your country's position.</span></li>
+    <li><b>Draft</b><span>Collaborate on resolutions.</span></li>
+    <li><b>Resolve</b><span>Vote, conclude and compete for awards.</span></li>
+  </ol>
+  <h3 class="why-h">Why take the floor?</h3>
+  <div class="why">
+    <article><h4>Diplomacy</h4><p>Learn to negotiate under pressure.</p></article>
+    <article><h4>Public speaking</h4><p>Build confidence and persuasive delivery.</p></article>
+    <article><h4>Global perspective</h4><p>See international issues from multiple viewpoints.</p></article>
+    <article><h4>Leadership</h4><p>Lead discussions and build consensus.</p></article>
+    <article><h4>Network</h4><p>Meet ambitious students from other institutions.</p></article>
+    <article><h4>Recognition</h4><p>Compete for delegate awards and certificates.</p></article>
+  </div>
+</section>
+
+<section class="sec dark" id="schedule">
+  <p class="meta">Schedule (tentative)</p><h2>Two days on the floor.</h2>
+  <div class="days">
+    <div class="day"><h3>Day 1</h3><div class="line"><u></u></div><ul>
+      <li><time>09:00</time>Registration</li><li><time>10:00</time>Opening ceremony</li><li><time>11:00</time>Committee session I</li><li><time>13:00</time>Lunch</li><li><time>14:00</time>Committee session II</li><li><time>17:00</time>Networking and informal session</li></ul></div>
+    <div class="day"><h3>Day 2</h3><div class="line"><u></u></div><ul>
+      <li><time>09:00</time>Committee session III</li><li><time>12:30</time>Lunch</li><li><time>14:00</time>Final debate</li><li><time>16:00</time>Closing ceremony</li><li><time>17:00</time>Awards</li></ul></div>
+  </div>
+</section>
+
+<!-- EXECUTIVE BOARD: add a section here once the team is confirmed. Cards: photo, name, position, one-line bio. -->
+
+<section class="sec" id="faq">
+  <p class="meta">FAQ</p><h2>Before you register.</h2>
+  <div class="faq" id="faqList"></div>
+</section>
+
+<section class="final">
+  <h2>Your country is waiting.</h2>
+  <p>Research. Negotiate. Represent. Resolve.</p>
+  <a class="btn" data-reg href="#">Register now →</a>
+  <p class="small"><span data-cfg="dates"></span> · <span data-cfg="venueShort"></span></p>
+</section>
+</main>
+
+<footer class="foot">
+  <div><strong>NMMUN '27</strong><p>MPSTME Shirpur, SVKM's NMIMS</p><p class="small">Built for diplomacy. Designed for dialogue.</p></div>
+  <div><a href="#about">About</a><a href="#committees">Committees</a><a href="#schedule">Schedule</a><a href="#faq">FAQ</a></div>
+  <div><a data-cfg-href="mailto" data-cfg="email"></a><a data-cfg-href="insta" target="_blank" rel="noopener">Instagram</a><a href="#" aria-disabled="true">LinkedIn (add link)</a></div>
+  <p class="small copy">© 2026 NMMUN. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
